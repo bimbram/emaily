@@ -1,0 +1,21 @@
+Node: JavaScript runtime used to execute code outside of the browser
+
+Express: Library that runs in the node runtime. Has helpers to make dealing with
+HTTP traffic easier
+
+Everything in express, in theory can be used in Node from scratch
+
+When you run some server, your server will listen to http traffic on a single individual
+port
+
+Port: a door through which traffic (http request) can be routed
+
+Node will get the request and hand it into express
+
+Express looks at the request and decides what chunk of code will 'handle' or respond
+to the request
+
+Route handlers are used to handle http request that are asking for a every specific
+service
+
+Route handlers will send response back to node after handling the http request

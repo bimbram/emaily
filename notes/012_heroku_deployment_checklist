@@ -1,0 +1,12 @@
+-Deployment Checklist
+1. Dynamic port binding
+-listen to the port they tell us
+-heroku has different port, we should make sure our app comply to heroku's port
+-environment variable is a specific variable that run on a specific node runtime
+2. Specify Node Environment
+-We want to use specific version of node, so we need to tell heroku which version
+of node we want to use
+3. Specify start script
+-Instruct Heroku what command to run to start our server running
+4. Create .gitignore
+-We don't want to exlude our node_modules

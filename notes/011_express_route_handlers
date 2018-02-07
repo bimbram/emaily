@@ -1,0 +1,16 @@
+-app is an object
+-.get is a method on app
+-http get method is a type of http method
+
+get - get info
+post - send info
+put - update all the properties of something
+delete - delete something
+patch - update one or two properties of something
+
+'/'
+watch for trying to access '/'
+
+req is an object representing the incoming request
+
+res is an object representing the outgoing response
