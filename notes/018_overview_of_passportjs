@@ -1,0 +1,10 @@
+1. passportJS will automate our request to google
+
+-Two passport weaknesses:
+1. not automate the entire thing, that is why we must add manual code
+2. there are more than one passport library
+
+passport library components
+-passport: general helpers for handling auth in express apps
+-passport strategy: helpers for authenticating with one very specific method
+(email/password, Google, facebook)

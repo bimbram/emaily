@@ -1,0 +1,8 @@
+1. user clicks login
+2. direct the user's request to google
+3. google will ask permission to the user
+4. user grants permission
+5. user on hold, take the code from the url (from google)
+6. send request to goodle with code included
+7. google see the code, and give the user details
+8. get user details, create new record in database
