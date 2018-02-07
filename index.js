@@ -6,6 +6,11 @@ const PORT = process.env.PORT || 5000
 
 const app = express();
 
+// client id
+// 174390895177-uh1lna042bb2b948r9i88varpdbvh5j3.apps.googleusercontent.com
+// client secret
+// gSTrv88SFy6DvV9RmNIq4RNS
+
 passport.use(new GoogleStrategy());
 
 

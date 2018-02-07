@@ -1,0 +1,6 @@
+-The google passport strategy constructor function will need a google id and google
+secret
+
+-These clients id and secrets will provide us by the google
+
+-We need to assign our application to google so that we can use google oauth
