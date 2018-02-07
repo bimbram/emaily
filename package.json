@@ -1,0 +1,25 @@
+{
+  "name": "emaily",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "8.9.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bimbram/emaily.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bimbram/emaily/issues"
+  },
+  "homepage": "https://github.com/bimbram/emaily#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
