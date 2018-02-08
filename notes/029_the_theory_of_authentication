@@ -1,0 +1,5 @@
+-HTTP is stateless
+-between any two given request has no way to share information between two shared
+request
+
+-cookie based authentication

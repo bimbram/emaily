@@ -1,0 +1,4 @@
+-app.use is wiring a middleware
+
+middleware is a small function that be used to process incoming request to our app
+before get sent to our route handler

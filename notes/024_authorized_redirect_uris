@@ -1,0 +1,8 @@
+https://accounts.google.com/o/oauth2/v2/auth?
+response_type=code
+&redirect_uri=
+http%3A%2F%2Flocalhost%3A5000%2Fauth%2Fgoogle%2Fcallback&
+scope=profile%20email&
+client_id=174390895177-uh1lna042bb2b948r9i88varpdbvh5j3.apps.googleusercontent.com
+
+we need to create the url handler

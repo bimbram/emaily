@@ -1,23 +1,29 @@
 const express = require('express');
+const mongoose = require('mongoose');
+const keys = require('./config/keys');
+const cookieSession = require('cookie-session');
 const passport = require('passport');
-const GoogleStrategy = require('passport-google-oauth20').Strategy;
-
-const PORT = process.env.PORT || 5000
 
 const app = express();
 
-// client id
-// 174390895177-uh1lna042bb2b948r9i88varpdbvh5j3.apps.googleusercontent.com
-// client secret
-// gSTrv88SFy6DvV9RmNIq4RNS
-
-passport.use(new GoogleStrategy());
+require('./models/user');
+require('./services/passport');
 
 
-app.get('/', (req, res) => {
-  res.send({hi: 'there'})
-});
+mongoose.connect(keys.mongoURI);
+
+app.use(
+  cookieSession({
+    maxAge: 30 * 24 * 60 * 60 * 1000,
+    keys: [keys.cookieKey]
+  })
+);
+
+app.use(passport.initialize());
+app.use(passport.session());
+
+require('./routes/authRoutes')(app);
 
 //dynamically figure out PORT environment variable
-
+const PORT = process.env.PORT || 5000
 app.listen(PORT);

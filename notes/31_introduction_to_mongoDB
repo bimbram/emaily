@@ -1,0 +1,13 @@
+-mongoose is a library is to make us easier when working with mongoDB
+
+-mongoDB internally store records into different collections
+
+-inside a collection there are record(s)
+
+-every single record is a JSON object
+
+-in the collection, mongodb allows different properties in records, while sql must
+have same properties
+
+-mongoose class is the representation of mongodb collection
+-mongoose model instance is the representation of mongodb record

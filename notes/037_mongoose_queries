@@ -1,0 +1,2 @@
+-checking whether the user is there in the database. IF it isn't save a new record,
+if it is skip

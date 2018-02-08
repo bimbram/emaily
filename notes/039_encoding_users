@@ -1,0 +1,2 @@
+Oauth's only purpose is to allow someone to sign in. After that, we use our own
+internal IDs

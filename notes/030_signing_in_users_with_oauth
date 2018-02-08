@@ -1,0 +1,6 @@
+-the traditional way of authentication is to check whether there is such username
+and password, if there isn't, create one, if it is let them in
+
+-while in google authentication we're asking google for its user unique id, and save
+the id into our databse. the next time user login, we check whether the id is within
+our database
