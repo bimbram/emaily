@@ -1,0 +1,12 @@
+-provider is a component that makes the store accessible to every component in the
+app
+
+-React Components calls a action creator return an action sent to reducers, updates
+states in store, state sent back to components causing them to rerender
+
+-provider tag is a react tag that is provided by the react-redux library
+
+-the sole purpose of react-redux library is to make sure that react and redux works
+together nicely
+
+-Nested components can access the global state by reaching directly into redux store

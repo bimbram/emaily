@@ -1,0 +1,8 @@
+We are bad at security
+-Never accept raw credit card numbers
+-Never store credit card numbers
+-Always use an outside payment processor (we're using stripe)
+
+Billing is hard
+-Fraud and chargebacks are a pain
+-If possible, avoid monthly payments/multiple plans

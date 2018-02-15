@@ -1,0 +1,8 @@
+-The entire purpose of redux thunk is to allow us to create an action creator
+which does not immediately return an action
+
+-redux thunk is giving the action creator a direct access into dispatch function
+at any point in time
+
+-dispatch sends the action to all different reducers in the store causing them
+to instantly recalculate the app state

@@ -1,0 +1,6 @@
+-if we're on one domain and request something to another, the cookies will not be
+included as a precautions
+
+-Cross Origin Resource Sharing
+
+-
