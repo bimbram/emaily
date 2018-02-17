@@ -1,0 +1,3 @@
+-webhook is anything where some outside API facilitating some process and gives
+our application some type of callback or some type of little notice that some event
+has occurred
